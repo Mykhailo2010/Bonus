@@ -65,3 +65,37 @@ nav > a,
     border: 2px solid #E4D8CC;
     background: #E4D8CC;
 }
+.statistics{
+    display: flex;
+    background-color: #E7DFD8;
+}
+.statistics1 > h2 {
+    padding: 76px 106px 15px 64px;
+    color: #101010;
+    font-family: Inter;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 58px;
+}
+.statistics1 > p {
+    padding: 0px 161px 75px 64px;
+    width: 452px;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+.statistics2 > img {
+    float: right;
+}
+.Bonus {
+    background-color: #E7DFD8;;
+}
+.Bonus1 > img {
+    width: 518px;
+    height: 500px;
+    flex-shrink: 0;
+    border-radius: 12px;
+}
