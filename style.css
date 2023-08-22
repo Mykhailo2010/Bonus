@@ -93,21 +93,27 @@ nav > a,
 .statistics2 > img {
     padding-top: 93px;
     width: 539px;
-    height: 283px;
-    float: right;
 }
-.Bonus {
-    
+.bonus {
+    justify-content: space-evenly;
     background-color: #E7DFD8;
     display: flex;
 }
-.Bonus1 > img {
+.bonus1 > img {
+    margin: 124px 0 101px;
     width: 518px;
     height: 500px;
     flex-shrink: 0;
     border-radius: 12px;
 }
-.Bonus2 > button {
+.bonus2 {
+    margin: 167px 0 28px;
+    width: 500px;
+}
+.bonus2-flex {
+    display: flex;
+}
+.bonus2-flex > button {
     width: 74px;
     height: 74px;
     flex-shrink: 0;
@@ -120,8 +126,12 @@ nav > a,
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
+    border: none;
 }
-.Bonus2 > .Home {
+.bonus2-flex > .home {
+    margin-top: 20px;
+    text-align: center;
+    padding-left: 12px;
     color: #101010;
     font-family: Inter;
     font-size: 19px;
@@ -129,8 +139,8 @@ nav > a,
     font-weight: 400;
     line-height: 36px;
 }
-.button2 > h2 {
-    width: 459px;
+.bonus2> h2 {
+    padding-top: 18px;
     color: #101010;
     font-family: Inter;
     font-size: 35px;
@@ -139,4 +149,41 @@ nav > a,
     line-height: 45px;
     letter-spacing: 1px;
 }
-.ho
+.bonus2-expand {
+    padding-top: 8px;
+    display: flex;
+}
+.bonus2-expand > p {
+    color: #101010;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.bonus2-expand > img {
+    width: 15px;
+    height: 18px;
+    color: black;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.bonus2-expand-line {
+    width: 95px;
+    height: 2px;
+    background-color: black;
+}
+.bonus2 > .home2 {
+    margin-top: 45px;
+    color: #101010;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.08px;
+}
