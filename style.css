@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 header {
-    background-image: url(png/IMAGE.png);
+    background-image: url(img/IMAGE.png);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -286,7 +286,7 @@ a {
     height: 539px;
 }
 .mission {
-    background: url(png/IMAGE\ \(8\).png);
+    background: url(img/IMAGE\ \(8\).png);
     background-size: cover;
 }
 .mission > p {
